@@ -11,7 +11,16 @@ body{
   /*cover;  strectches picture to fit the screen*/
 
  font-family: 'Ranga', cursive;
-font-size: 20px;
+font-size: 30px;
+}
+
+
+.fa-user-plus{
+	color:  #33ff77;
+}
+.fa-user{
+	color:  #c266ff;
+
 }
 
 #content{
@@ -40,4 +49,103 @@ hr{
 }
 .navbar-brand{
 	font-size: 30px;
+}
+
+#aboutPage{
+	background:url(http://i.huffpost.com/gen/1824160/images/o-CAT-PEOPLE-DOG-PEOPLE-facebook.jpg);
+
+	background-size: cover;
+	background-position: center;
+	 font-family: 'Ranga', cursive;
+font-size: 30px;
+
+}
+#aboutPage p{
+	color: white;
+	font-size: 30px;
+	font-family:'Roboto', sans-serif; 
+}
+
+#contactPage{
+	background:url(http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-06.jpg);
+
+	background-size: cover;
+	background-position: center;
+	 font-family: 'Ranga', cursive;
+font-size: 30px;
+
+}
+#contactPage p{
+	color: white;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif; 
+}
+
+
+
+#signupPage{
+	background:url(http://eskipaper.com/images/cat-background-2.jpg);
+
+	background-size: cover;
+	background-position: center;
+	 font-family: 'Ranga', cursive;
+font-size: 30px;
+
+}
+
+
+#signupPage h1{
+	color:green;
+	font-size: 60px;
+	text-align: center;
+}
+
+#signupPage p{
+	font-size: 30px;
+}
+
+
+
+#loginPage{
+	background:url(http://www.catprotection.com.au/wp-content/uploads/2014/11/5507692-cat-m.jpg);
+
+	background-size: cover;
+	background-position: center;
+	 font-family: 'Ranga', cursive;
+font-size: 30px;
+
+}
+
+
+
+#loginPage input[type=email]{
+	
+   
+    text-align: center;
+    font-size: 30px;
+
+    
+   
+
+}
+#loginPage input[type=password]{
+	font-size: 30px;
+	/*display: block;*/
+
+}
+
+#loginPage h1{
+
+	color:blue;
+	font-size: 60px;
+	text-align: center;
+}
+label{
+	font-size: 30px;
+	color: purple;
+	margin-left: 100px;
+}
+
+input[type=submit]{
+	margin-left: 100px;
 }
