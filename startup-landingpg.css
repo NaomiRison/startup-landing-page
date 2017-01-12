@@ -52,18 +52,27 @@ hr{
 }
 
 #aboutPage{
-	background:url(http://i.huffpost.com/gen/1824160/images/o-CAT-PEOPLE-DOG-PEOPLE-facebook.jpg);
+	background:url(http://deskbg.com/s3/wpp/17/17441/cat-dark-desktop-background.jpg);
 
 	background-size: cover;
 	background-position: center;
 	 font-family: 'Ranga', cursive;
-font-size: 30px;
+     font-size: 30px;
+     background-size: 1920px 2000px;
+       background-repeat: no-repeat;
 
 }
 #aboutPage p{
 	color: white;
 	font-size: 30px;
 	font-family:'Roboto', sans-serif; 
+}
+#aboutPage img {
+ 	float: right;
+}
+hr.style5 {
+	background-color: #fff;
+	border-top: 2px dashed #8c8b8b;
 }
 
 #contactPage{
@@ -95,6 +104,7 @@ font-size: 30px;
 
 
 #signupPage h1{
+	padding-top: 30px;
 	color:green;
 	font-size: 60px;
 	text-align: center;
@@ -149,4 +159,20 @@ label{
 
 input[type=submit]{
 	margin-left: 100px;
+}
+#selectPage img{
+
+	width: 300;
+	height: 300;
+
+}
+#after{
+	background-image: none;
+}
+#after p {
+    font size: 50px;
+   
+}
+#after img{
+	float: left;
 }
