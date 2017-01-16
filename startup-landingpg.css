@@ -160,10 +160,11 @@ label{
 input[type=submit]{
 	margin-left: 100px;
 }
-#selectPage img{
+#selectPage .col-sm-6 .thumbnail img{
 
-	width: 300;
-	height: 300;
+	width: 200px;
+	height: 200px;
+
 
 }
 #after{
