@@ -81,13 +81,16 @@ hr.style5 {
 	background-size: cover;
 	background-position: center;
 	 font-family: 'Ranga', cursive;
-font-size: 30px;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-size: 1600px 1600px;
 
 }
 #contactPage p{
 	color: white;
 	font-size: 30px;
-	font-family: 'Roboto', sans-serif; 
+	font-family: 'Roboto', sans-serif;
+	text-align: center; 
 }
 
 
