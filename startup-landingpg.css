@@ -3,6 +3,8 @@ body{
 
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	 background-size: 1800px 1100px;
 
 	/*background: url(http://catcurious.wdfiles.com/local--files/behavior%3Aare-cats-cold-and-aloof/cat-human-affection.jpg);
 	background-size: 1600px 1600px;
@@ -10,8 +12,8 @@ body{
 
   /*cover;  strectches picture to fit the screen*/
 
- font-family: 'Ranga', cursive;
-font-size: 30px;
+ font-family: 'Slabo 27px', serif;
+font-size: 20px;
 }
 
 
@@ -31,13 +33,16 @@ font-size: 30px;
 25% changes as we resize the screen*/
 h1,h3{
 	color: white;
+	
+
 }
 h1{
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 25px;
+	margin-top: 80px;
 }
 h3{
-	font-size: 2em;
+	font-size: 20px;
 }
 /*5em means 5x times bigger than of the parent body font 
 size of 20px*/
@@ -48,28 +53,33 @@ hr{
 
 }
 .navbar-brand{
-	font-size: 30px;
+	font-size: 25px;
+}
+.navbar-nav{
+    font-size: 20px;
 }
 
 #aboutPage{
 	background:url(http://deskbg.com/s3/wpp/17/17441/cat-dark-desktop-background.jpg);
-
+      font-family: 'Slabo 27px', serif;
+      font-size: 20px;
 	background-size: cover;
 	background-position: center;
-	 font-family: 'Ranga', cursive;
-     font-size: 30px;
+	
+     
      background-size: 1920px 2000px;
        background-repeat: no-repeat;
 
 }
 #aboutPage p{
 	color: white;
-	font-size: 30px;
-	font-family:'Roboto', sans-serif; 
+	font-size: 16px;
+	
 }
 #aboutPage img {
  	float: right;
 }
+
 hr.style5 {
 	background-color: #fff;
 	border-top: 2px dashed #8c8b8b;
@@ -80,19 +90,22 @@ hr.style5 {
 
 	background-size: cover;
 	background-position: center;
-	 font-family: 'Ranga', cursive;
-    font-size: 30px;
+	  font-family: 'Slabo 27px', serif;
+      font-size: 20px;
     background-repeat: no-repeat;
     background-size: 1600px 1600px;
 
 }
 #contactPage p{
 	color: white;
-	font-size: 30px;
-	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	margin-top: 25px;
 	text-align: center; 
 }
+#contactPage h1{
+	text-align: center;
 
+}
 
 
 #signupPage{
@@ -100,21 +113,20 @@ hr.style5 {
 
 	background-size: cover;
 	background-position: center;
-	 font-family: 'Ranga', cursive;
-font-size: 30px;
-
+	 font-family: 'Slabo 27px', serif;
+     font-size: 20px;
 }
 
 
 #signupPage h1{
 	padding-top: 30px;
 	color:green;
-	font-size: 60px;
+	font-size: 25px;
 	text-align: center;
 }
 
 #signupPage p{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 
@@ -125,28 +137,72 @@ font-size: 30px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	 font-family: 'Ranga', cursive;
-font-size: 30px;
+	  font-family: 'Slabo 27px', serif;
+     font-size: 20px;
+     background-size:1200px 900px;
 
 }
 
+#loginPage h1{
+	font-size: 20px;
+	color: purple;
+	margin-top: 340px;
+
+}
 
 
 #loginPage input[type=email]{
 	
    
     text-align: center;
-    font-size: 30px;
+    font-size: 18px;
 
     
    
 
 }
 #loginPage input[type=password]{
-	font-size: 30px;
-	/*display: block;*/
+	font-size: 18px;
+	display: block;
+	margin-left: 20px;
+	}
+	#loginPage input[type=email]{
+	font-size: 18px;
+	display: block;
+	margin-left: 20px;
+	}
 
-}
+	#loginPage label{
+		display: block;
+		margin-left: 20px;
+	}
+
+	#loginPage input[type=submit]{
+	font-size: 18px;
+	display: block;
+	margin-left: 20px;
+	
+	}
+
+
+
+	#selectPage{
+		 font-family: 'Slabo 27px', serif;
+            font-size: 20px;
+	}
+	#after{
+		font-family: 'Slabo 27px', serif;
+            font-size: 20px;
+            background: none;
+	}
+	 .finalpage{
+	 	font-family: 'Slabo 27px', serif;
+            font-size: 16px;
+            text-align: right;
+            text-align: left;
+	 }
+
+/*}
 
 #loginPage h1{
     padding-top: 30px;
@@ -180,3 +236,4 @@ input[type=submit]{
 #after img{
 	float: left;
 }
+*/

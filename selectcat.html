@@ -11,8 +11,50 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	 <link rel="stylesheet" type="text/css" href="startup-landingpg.css">
+
+     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
 </head>
 <body id="selectPage">
+<!-- nav bar from http://getbootstrap.com/components/#navbar
+edit navbar as I want to create nav I want -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <!--  navbar-fixed-top keeps the menue on top as you scroll -->
+  <div class="container"> <!-- to have spacing on edges of  navbar, deleted the "container-fluid" to container -->
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span class="navbar-brand"> Purrfect Match</span>
+    </div>
+   
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+        <!-- deleted drop down here and class id active -->
+
+      </ul>
+     <!-- deleted form here -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="signup.html">Sign up<li class="fa fa-user-plus"></li></a></li>
+        <li><a href="login.html">Login<li class="fa fa-user"></li></a></li>
+        <!-- deleted the dropdown here -->
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
 
 <div class="container">
 	<div class="row">
@@ -55,7 +97,7 @@
         <div class="col-sm-6 col-md-4">
             <div class="thumbnail">
                 <h4>
-                    Turkish angora cat
+                    Turkish Angora cat
                     <span class="label label-info info">
                         <span data-toggle="tooltip" title="Viewed">2.1K <b class="glyphicon glyphicon-eye-open"></b></span>
                         <span data-toggle="tooltip" title="Favorited">13 <b class="glyphicon glyphicon-star"></b></span>
