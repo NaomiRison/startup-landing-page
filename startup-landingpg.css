@@ -190,6 +190,13 @@ hr.style5 {
 		 font-family: 'Slabo 27px', serif;
             font-size: 20px;
 	}
+	#selectPage .col-sm-6 .thumbnail img{
+
+	width: 200px;
+	height: 200px;
+
+
+}
 	#after{
 		font-family: 'Slabo 27px', serif;
             font-size: 20px;
