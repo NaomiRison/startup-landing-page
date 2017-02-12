@@ -74,6 +74,8 @@ hr{
 #aboutPage p{
 	color: white;
 	font-size: 16px;
+	line-height: 145%;
+	word-spacing: 3px;
 	
 }
 #aboutPage img {
