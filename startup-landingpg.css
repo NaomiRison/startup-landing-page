@@ -88,24 +88,26 @@ hr.style5 {
 }
 
 #contactPage{
-	background:url(http://www.coolanimalworld.com/wp-content/uploads/2013/08/Lovely-cat-and-beautifyl-owner-at-a-leisurely-rainy-day-06.jpg);
+	background:url(http://www.yourcat.co.uk/images/stories/misc/contact_cat_team.jpg);
 
 	background-size: cover;
 	background-position: center;
 	  font-family: 'Slabo 27px', serif;
       font-size: 20px;
+     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 1600px 1600px;
+   /* background-size: 1200px 1200px;*/
 
 }
 #contactPage p{
-	color: white;
+	color: black;
 	font-size: 16px;
 	margin-top: 25px;
 	text-align: center; 
 }
 #contactPage h1{
 	text-align: center;
+	color: black;
 
 }
 
