@@ -14,6 +14,7 @@ body{
 
  font-family: 'Slabo 27px', serif;
 font-size: 20px;
+max-width: 100%;
 }
 
 
@@ -38,11 +39,11 @@ h1,h3{
 }
 h1{
 	font-weight: 700;
-	font-size: 25px;
+	font-size: 200%;
 	margin-top: 80px;
 }
 h3{
-	font-size: 20px;
+	font-size: 110%;
 }
 /*5em means 5x times bigger than of the parent body font 
 size of 20px*/
@@ -53,19 +54,23 @@ hr{
 
 }
 .navbar-brand{
-	font-size: 25px;
+	font-size: 90%;
 }
 .navbar-nav{
     font-size: 20px;
 }
 
 #aboutPage{
-	background:url(http://deskbg.com/s3/wpp/17/17441/cat-dark-desktop-background.jpg);
+	/*background:url(http://deskbg.com/s3/wpp/17/17441/cat-dark-desktop-background.jpg);*/
+	background-color: grey;
+	background-image: none;
+	height: 100vh;
       font-family: 'Slabo 27px', serif;
       font-size: 20px;
 	background-size: cover;
 	background-position: center;
-	
+
+	padding: 2%;
      
      background-size: 1920px 2000px;
        background-repeat: no-repeat;
@@ -88,15 +93,26 @@ hr.style5 {
 }
 
 #contactPage{
-	background:url(http://www.yourcat.co.uk/images/stories/misc/contact_cat_team.jpg);
+	/*background:url(http://www.yourcat.co.uk/images/stories/misc/contact_cat_team.jpg);*/
 
-	background-size: cover;
-	background-position: center;
+	/*background-size: cover;
+	background-position: center;*/
 	  font-family: 'Slabo 27px', serif;
       font-size: 20px;
      height: 100vh;
-    background-repeat: no-repeat;
+   /* background-repeat: no-repeat;*/
    /* background-size: 1200px 1200px;*/
+
+
+   background-color: #000; 
+    background-image: url(http://www.yourcat.co.uk/images/stories/misc/contact_cat_team.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
 
 }
 #contactPage p{
@@ -119,18 +135,28 @@ hr.style5 {
 	background-position: center;
 	 font-family: 'Slabo 27px', serif;
      font-size: 20px;
+     padding: 2%;
+
+     -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
 }
 
 
 #signupPage h1{
 	padding-top: 30px;
 	color:green;
-	font-size: 25px;
+	font-size: 200%;
 	text-align: center;
 }
 
 #signupPage p{
-	font-size: 20px;
+	font-size: 90%;
 }
 
 
@@ -145,21 +171,34 @@ hr.style5 {
      font-size: 20px;
      background-size:1200px 900px;
 
+-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+
+ 
 }
 
 #loginPage h1{
-	font-size: 20px;
-	color: purple;
+	font-size: 200%;
+	color: #FF0000;
 	margin-top: 340px;
 
 }
-
+#loginPage label{
+	color: #FF0000;
+}
 
 #loginPage input[type=email]{
 	
    
     text-align: center;
     font-size: 18px;
+
 
     
    
@@ -193,6 +232,8 @@ hr.style5 {
 	#selectPage{
 		 font-family: 'Slabo 27px', serif;
             font-size: 20px;
+            background-image: none;
+            background-color: #bed813;
 	}
 	#selectPage .col-sm-6 .thumbnail img{
 
@@ -208,11 +249,14 @@ hr.style5 {
 	}
 	 .finalpage{
 	 	font-family: 'Slabo 27px', serif;
-            font-size: 16px;
+            font-size: 20px;
             text-align: right;
             text-align: left;
 	 }
 
+   #after img{
+   	max-width: 100%;
+   }
 /*}
 
 #loginPage h1{
@@ -248,3 +292,6 @@ input[type=submit]{
 	float: left;
 }
 */
+
+/*media queries put in sperate file*/
+ 
