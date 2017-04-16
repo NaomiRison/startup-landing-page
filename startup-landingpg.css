@@ -1,10 +1,15 @@
 body{
 	background: url(https://aos.iacpublishinglabs.com/question/aq/700px-394px/similarities-between-cat-human-anatomy_1b0e81175e4b8c75.jpg?domain=cx.aos.ask.com);
 
-	background-size: cover;
+/*	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	 background-size: 1800px 1100px;
+	 background-size: 1800px 1500px;*/
+	 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	 background-size: 1800px 1500px;
+
 
 	/*background: url(http://catcurious.wdfiles.com/local--files/behavior%3Aare-cats-cold-and-aloof/cat-human-affection.jpg);
 	background-size: 1600px 1600px;
@@ -292,5 +297,13 @@ input[type=submit]{
 }
 */
 
-/*media queries put in sperate file*/
+/*media queries put in seperate file*/
+@media (max-width: 1023px){
+	body{
+          background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	 background-size: 1800px 1500px;
+	}
+}
  
